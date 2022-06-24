@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px;
+}
+
+.boox {
+    height: 20px;
+    width: 130px;
+    border: 1px solid black;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.boox:hover {
+    background-color: green;
+}
